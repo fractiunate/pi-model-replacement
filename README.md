@@ -47,10 +47,25 @@ extensions.
 Reading is fail-soft — a missing or malformed `settings.json`, or absent
 `model_replacements`, yields no aliases (extension is a no-op).
 
+## Installation
+
+Install via pi:
+
+```bash
+pi install npm:pi-model-replacements
+```
+
 ## Development
+
+### Setup
 
 ```sh
 npm install
+```
+
+### Testing
+
+```sh
 npm test   # tsx --test *.test.ts
 ```
 
