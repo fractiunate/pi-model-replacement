@@ -1,6 +1,6 @@
 # pi-model-replacements
 
-A standalone [pi](https://github.com/earendil-works/pi-coding-agent) extension that lets
+A standalone [pi](https://github.com/earendil-works/pi) extension that lets
 agents, subagents, and prompt templates reference **abstract model tiers** (`low` /
 `medium` / `high`, or any alias name) instead of hard-coding `provider/model-id`. A single
 change in `settings.json` re-points every template and subagent.
@@ -8,7 +8,7 @@ change in `settings.json` re-points every template and subagent.
 ## How it works
 
 Add a `model_replacements` map to the active agent dir's `settings.json` (the dir selected
-by `PI_CODING_AGENT_DIR`, e.g. `~/.pi/qrspi/settings.json`):
+by `PI_CODING_AGENT_DIR`, e.g. `~/.pi/agent/settings.json`):
 
 ```json
 {
