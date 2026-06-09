@@ -1,5 +1,7 @@
 # pi-model-replacements
 
+![hero](./hero-image.png)
+
 A standalone [pi](https://github.com/earendil-works/pi) extension that lets
 agents, subagents, and prompt templates reference **abstract model tiers** (`low` /
 `medium` / `high`, or any alias name) instead of hard-coding `provider/model-id`. A single

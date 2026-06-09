@@ -1,11 +1,11 @@
 {
   "name": "pi-model-replacements",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "type": "module",
   "description": "Model alias/tier (low/medium/high) replacement extension for pi coding agent",
   "license": "MIT",
   "keywords": ["pi-package", "pi", "pi-coding-agent", "model-selector", "extension"],
-  "files": ["index.ts", "alias-resolver.ts", "registry-inject.ts", "README.md", "LICENSE"],
+  "files": ["index.ts", "alias-resolver.ts", "registry-inject.ts", "README.md", "LICENSE", "hero-image.png"],
   "scripts": {
     "test": "tsx --test *.test.ts"
   },
@@ -16,7 +16,8 @@
     "tsx": "^4.20.5"
   },
   "pi": {
-    "extensions": ["./index.ts"]
+    "extensions": ["./index.ts"],
+    "image": "https://github.com/fractiunate/pi-model-replacement/blob/main/hero-image.png"
   },
   "repository": "https://github.com/fractiunate/pi-model-replacement"
 }
