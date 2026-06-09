@@ -17,7 +17,7 @@
   },
   "pi": {
     "extensions": ["./index.ts"],
-    "image": "https://github.com/fractiunate/pi-model-replacement/blob/main/hero-image.png"
+    "image": "https://raw.githubusercontent.com/fractiunate/pi-model-replacement/main/hero-image.png"
   },
   "repository": "https://github.com/fractiunate/pi-model-replacement"
 }
