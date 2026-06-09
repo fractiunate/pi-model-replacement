@@ -1,0 +1,21 @@
+{
+  "name": "pi-model-replacements",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Model alias/tier (low/medium/high) replacement extension for pi coding agent",
+  "license": "MIT",
+  "keywords": ["pi-package", "pi", "pi-coding-agent", "model-selector", "extension"],
+  "files": ["index.ts", "alias-resolver.ts", "registry-inject.ts", "README.md"],
+  "scripts": {
+    "test": "tsx --test *.test.ts"
+  },
+  "devDependencies": {
+    "@mariozechner/pi-agent-core": "^0.65.0",
+    "@mariozechner/pi-ai": "^0.65.0",
+    "@mariozechner/pi-coding-agent": "^0.65.0",
+    "tsx": "^4.20.5"
+  },
+  "pi": {
+    "extensions": ["./index.ts"]
+  }
+}
