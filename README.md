@@ -107,3 +107,7 @@ Only direct `alias → "provider/model-id"` mappings are accepted.
 `pi-subagents/src/shared/utils.ts:getAgentDir()`. Both are intentionally kept
 separate to avoid cross-package coupling. Any future change to path-expansion
 logic (e.g., Windows normalisation) must be applied to both files.
+
+---
+
+Made with ♥ by [fractiunate](https://github.com/fractiunate)
