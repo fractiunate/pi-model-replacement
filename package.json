@@ -5,7 +5,7 @@
   "description": "Model alias/tier (low/medium/high) replacement extension for pi coding agent",
   "license": "MIT",
   "keywords": ["pi-package", "pi", "pi-coding-agent", "model-selector", "extension"],
-  "files": ["index.ts", "alias-resolver.ts", "registry-inject.ts", "README.md"],
+  "files": ["index.ts", "alias-resolver.ts", "registry-inject.ts", "README.md", "LICENSE"],
   "scripts": {
     "test": "tsx --test *.test.ts"
   },
@@ -17,5 +17,7 @@
   },
   "pi": {
     "extensions": ["./index.ts"]
-  }
+  },
+  "repository": "https://github.com/fractiunate/pi-model-replacement"
 }
+
