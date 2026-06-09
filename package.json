@@ -1,6 +1,6 @@
 {
   "name": "pi-model-replacements",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "type": "module",
   "description": "Model alias/tier (low/medium/high) replacement extension for pi coding agent",
   "license": "MIT",
