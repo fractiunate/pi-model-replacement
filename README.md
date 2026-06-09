@@ -52,6 +52,11 @@ npm install
 npm test   # tsx --test *.test.ts
 ```
 
+## Works well with
+
+- [**pi-prompt-template-model**](https://github.com/nicobailon/pi-prompt-template-model) — Abstract model tiers in your prompt templates.
+- [**pi-subagents**](https://github.com/nicobailon/pi-subagents) — Delegate work to subagents with model-tier overrides in `subagent` tool calls.
+
 ## Contracts and limitations
 
 ### Thinking-suffix handling
